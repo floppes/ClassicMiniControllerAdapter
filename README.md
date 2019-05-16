@@ -37,7 +37,7 @@ Please note that the board operates at 3.3 V. Your programmer or Arduino must wo
 
 ### Firmware ###
 
-The firmware (Arduino sketch) uses the awesome [joystick library](https://github.com/MHeironimus/ArduinoJoystickLibrary) written by Matthew Heironimus. You will need to download and add it to your Arduino libraries before you can compile the firmware.
+The firmware (Arduino sketch) is located in [controller_adapter](controller_adapter) and uses the awesome [joystick library](https://github.com/MHeironimus/ArduinoJoystickLibrary) written by Matthew Heironimus. You will need to download and add it to your Arduino libraries before you can compile the firmware.
 
 After burning the bootloader, the device should appear as a SparkFun Pro Micro when connected via USB to your computer. You can then compile and download the sketch with the Arduino IDE. Select the SparkFun Pro Micro 3.3 V/8 MHz device in the Arduino IDE.
 
